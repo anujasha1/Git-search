@@ -1,0 +1,65 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid black !important;
+    justify-content: center;
+    padding: 35px
+}
+
+td {
+    align-items: center;
+    height: 55px;
+    margin-right: 20px;
+    padding: 20px;
+
+}
+
+img {
+    border-radius: 50%;
+    height: inherit;
+}
+
+.followListDiv {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    background-color: #383838;
+    overflow: scroll;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followList {
+    background-color: black;
+    position: relative;
+    height: 20rem;
+    color: grey;
+    width: 50%;
+    overflow: hidden;
+}
+
+.followList > table {
+    border: none;
+}
+
+.followListCloseButton {
+    position: absolute;
+    top: -25;
+    display: flex;
+    justify-content: flex-end;
+    color: darkgray;
+}
+
+.followListCloseButton button {
+    border-radius: 5px;
+    z-index: 30 !important;
+    margin: 3px;
+
+}
+
